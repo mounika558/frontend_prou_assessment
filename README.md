@@ -7,7 +7,7 @@ and services with a modern user experience.
 #setup steps
 1) Setup frontend frame work react.js and tailwindcss(3.4) for development
 2) commands to setup projects
-    1)⭐ npm create vite@latest
+      ⭐ npm create vite@latest
       ⭐ choosed react framework with javascript
       ⭐ command to run server :npm run dev 
       ⭐ npm install -D tailwindcss@3
@@ -15,14 +15,14 @@ and services with a modern user experience.
       ⭐ command to run tailwindcss : npx tailwindcss -i ./src/input.css -o ./src/index.css --watch
    
 3) other extra libraries used,
-    1)⭐ react-router dom (routing pages )
+      ⭐ react-router dom (routing pages )
       ⭐ lucid-react/react-icons for icons (icons)
       ⭐ Axios for API Handling 
       ⭐ mockapi for API creation
       ⭐ Hooks(Usestate,UseEffect) 
    
 4) Tech stack used :
-    1)⭐ React Js
+      ⭐ React Js
       ⭐ Tailwind css
       ⭐ mockApi
       ⭐ Visual studio code
