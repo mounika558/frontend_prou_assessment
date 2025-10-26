@@ -51,6 +51,7 @@ const Menu = () => {
             </div>
           ))}
         </div>
+        <div className='flex items-center justify-center m-8 mt-16'><p className='text-center flex text-lg text-gray-800 '>""""All menu items are prepared fresh daily. Ask about our seasonal specials and dietary accommodations.""""</p></div>
       </section>
     </div>
   );

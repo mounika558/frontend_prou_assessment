@@ -1,7 +1,9 @@
 import React from 'react'
 import hero_img from '../assets/bg_img.png';
 import About from './About';
-import { Menu } from 'lucide-react';
+import Menu from './Menu'
+import {Link} from 'react-router-dom'
+import Contact from './Contact'
 const Landingpage = () => {
   return (
     <>
@@ -17,13 +19,14 @@ const Landingpage = () => {
             <p className='text-sm sm:text-base md:text-lg lg:text-xl px-4 font-semibold'>Enjoy cozy vibes and delicious food!</p>
           
           <div className='flex flex-col sm:flex-row gap-3 sm:gap-4 font-bold text-sm sm:text-base md:text-lg justify-center items-center px-4 pt-2'>
-          <button className='bg-amber-900 p-3 sm:p-4 rounded-md w-full max-w-xs sm:w-52'>View Menu</button>
-          <button className='bg-amber-200 p-3 sm:p-4 rounded-md text-amber-950 w-full max-w-xs sm:w-52'>Visit Us</button>
+          <button className='bg-amber-900 p-3 sm:p-4 rounded-md w-full max-w-xs sm:w-52'><Link to='/menu'>View Menu</Link></button>
+          <button className='bg-amber-200 p-3 sm:p-4 rounded-md text-amber-950 w-full max-w-xs sm:w-52'><Link to='/contact'>Visit Us</Link></button>
         </div>
           </div>
         </div>
         <About/>
         <Menu/>
+        <Contact/>
     </>
   )
 }

@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import About from '../Pages/About';
 import Contact from '../Pages/Contact';
 import Menu from '../Pages/Menu';
-import ReserveTable from '../Pages/ReserveTable';
+// import ReserveTable from '../Pages/ReserveTable';
 import Landingpage from '../Pages/Landingpage'
 import CafeLogo from '../assets/cafe_logo.png'
 
@@ -34,9 +34,9 @@ const Navbar = () => {
             <nav className="hidden md:flex space-x-6 lg:space-x-10 text-base lg:text-lg font-semibold">
               <Link to='/' className="hover:text-amber-400 transition-colors duration-200">Home</Link>
               <Link to='/about' className="hover:text-amber-400 transition-colors duration-200">About</Link>
-              <Link to='/contact' className="hover:text-amber-400 transition-colors duration-200">Contact</Link>
               <Link to='/Menu' className="hover:text-amber-400 transition-colors duration-200">Menu</Link>
-              <Link to='/ReserveTable' className="hover:text-amber-400 transition-colors duration-200 bg-amber-900 text-white px-3 py-2 rounded-lg">Reserve Table</Link>
+              <Link to='/contact' className="hover:text-amber-400 transition-colors duration-200">Contact</Link>
+              <Link to='/contact' className="hover:text-amber-400 transition-colors duration-200 bg-amber-900 text-white px-3 py-2 rounded-lg">Reserve Table</Link>
             </nav>
           </div>
 
@@ -47,7 +47,7 @@ const Navbar = () => {
               <Link to='/about' onClick={() => setIsMenuOpen(false)} className="hover:text-amber-400 transition-colors duration-200">About</Link>
               <Link to='/contact' onClick={() => setIsMenuOpen(false)} className="hover:text-amber-400 transition-colors duration-200">Contact</Link>
               <Link to='/Menu' onClick={() => setIsMenuOpen(false)} className="hover:text-amber-400 transition-colors duration-200">Menu</Link>
-              <Link to='/ReserveTable' onClick={() => setIsMenuOpen(false)} className="hover:text-amber-400 transition-colors duration-200 bg-amber-900 text-white px-3 py-2 rounded-lg inline-block text-center">Reserve Table</Link>
+              <Link to='/contact' onClick={() => setIsMenuOpen(false)} className="hover:text-amber-400 transition-colors duration-200 bg-amber-900 text-white px-3 py-2 rounded-lg inline-block text-center">Reserve Table</Link>
             </nav>
           )}
         </header>
@@ -57,7 +57,7 @@ const Navbar = () => {
           <Route path='/About' element={<About />}></Route>
           <Route path='/Contact' element={<Contact />}></Route>
           <Route path='/Menu' element={<Menu />}></Route>
-          <Route path='/ReserveTable' element={<ReserveTable />}></Route>
+          <Route path='/Contact' element={<Contact />}></Route>
         </Routes>
       </Router>
     </>
