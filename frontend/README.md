@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3164f49e-08cb-4dc4-a20a-be9bd497a70f" /># React+vite
+# React+vite
 A beautifully designed, fully responsive website for Kuku Cafe built with React.js and Tailwind CSS, showcasing the cafe's menu, ambiance, 
 and services with a modern user experience.
 
@@ -31,6 +31,12 @@ and services with a modern user experience.
 
 9) Demo Screenshots and video 
    <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6439ba6f-f0da-494b-a74d-0a3733ff7abd" />
+   <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/54bc5133-de76-4379-8b23-47d2fc0fcb0c" />
+   <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2ce6f5fc-a3fc-43e4-b9d7-23489ac3d7a2" />
+   <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f17f68db-e979-4759-b653-423543b8d9b1" />
+
+
+
    
 
     
