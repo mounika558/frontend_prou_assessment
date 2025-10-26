@@ -1,16 +1,38 @@
-# React + Vite
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3164f49e-08cb-4dc4-a20a-be9bd497a70f" /># React+vite
+A beautifully designed, fully responsive website for Kuku Cafe built with React.js and Tailwind CSS, showcasing the cafe's menu, ambiance, 
+and services with a modern user experience.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#setup steps
+1) Setup frontend frame work react.js and tailwindcss(3.4) for development
+2) commands to setup projects
+    ⭐ npm create vite@latest
+    ⭐ choosed react framework with javascript
+    ⭐ command to run server :npm run dev 
+    ⭐ npm install -D tailwindcss@3
+    ⭐ npx tailwindcss init
+    ⭐ command to run tailwindcss : npx tailwindcss -i ./src/input.css -o ./src/index.css --watch
+   
+4) other extra libraries used,
+    ⭐ react-router dom (routing pages )
+    ⭐ lucid-react/react-icons for icons (icons)
+    ⭐ Axios for API Handling 
+    ⭐ mockapi for API creation 
+   
+4)Tech stack used :
+    ⭐ React Js
+    ⭐ Tailwind css
+    ⭐ mockApi
+    ⭐ Visual studio code
+    ⭐ Vercel for hosting
+    
+6) Link of mockapi : https://68fe1ad67c700772bb12cf2a.mockapi.io/menuitems/Menu
+7) Live website : https://frontend-prou-assessment.vercel.app/
+8) Additional Bonus : Hosted by website using vercel .
 
-Currently, two official plugins are available:
+9) Demo Screenshots and video 
+   <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6439ba6f-f0da-494b-a74d-0a3733ff7abd" />
+   
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+    
