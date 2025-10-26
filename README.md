@@ -18,7 +18,8 @@ and services with a modern user experience.
     ⭐ react-router dom (routing pages )
     ⭐ lucid-react/react-icons for icons (icons)
     ⭐ Axios for API Handling 
-    ⭐ mockapi for API creation 
+    ⭐ mockapi for API creation
+    ⭐ Hooks(Usestate,UseEffect) 
    
  4)Tech stack used :
     ⭐ React Js
@@ -27,7 +28,7 @@ and services with a modern user experience.
     ⭐ Visual studio code
     ⭐ Vercel for hosting
     
-6) Link of mockapi : https://68fe1ad67c700772bb12cf2a.mockapi.io/menuitems/Menu
+6) Link of mockapi(menu items data in json format) : https://68fe1ad67c700772bb12cf2a.mockapi.io/menuitems/Menu
 7) Live website : https://frontend-prou-assessment.vercel.app/
 8) Additional Bonus : Hosted website using vercel .
 
