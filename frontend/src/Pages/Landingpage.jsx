@@ -1,5 +1,7 @@
 import React from 'react'
 import hero_img from '../assets/bg_img.png';
+import About from './About';
+import { Menu } from 'lucide-react';
 const Landingpage = () => {
   return (
     <>
@@ -20,6 +22,8 @@ const Landingpage = () => {
         </div>
           </div>
         </div>
+        <About/>
+        <Menu/>
     </>
   )
 }

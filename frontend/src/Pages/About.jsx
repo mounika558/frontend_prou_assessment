@@ -8,7 +8,7 @@ const About = () => {
         {/* --- Title Section --- */}
         <div className="text-center space-y-3">
           <p className="font-bold text-2xl sm:text-3xl md:text-4xl text-amber-900">Our Story</p>
-          <p className="font-bold text-lg sm:text-2xl md:text-3xl text-amber-900">
+          <p className="font-bold text-lg sm:text-2xl md:text-3xl text-gray-900">
             A passion for coffee and cuisine, crafted with love
           </p>
         </div>
